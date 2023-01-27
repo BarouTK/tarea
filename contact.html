@@ -4,34 +4,65 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     
+    <!-- Estilo Web 1 -->
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- Estilo web 2
+    <link rel="stylesheet" href="./css/style2.css" /> -->
+    <!-- Estilo web 3
+    <link rel="stylesheet" href="./css/style3.css" /> -->
+    <link rel="shortcut icon" href="./imagenes/Ducks1.ico" />
+    <!-- Imaggen icono web -->
     <link rel="shortcut icon" href="./imagenes/Ducks1.ico">
     <title>Mighty Ducks NHL</title>
   </head>
   <body>
     <!-- Header -->
-    <header>
-      <img src="./imagenes/Logo.png" width="150" alt="Logo Mighty Ducks" />
-      <h1>Mighty Ducks Hockey League</h1>
+    <header class="cabecera">
+      <div>
+        <h1 class="name">Mighty Ducks Hockey League</h1>
+
+        <div>
+          <img
+            class="logo"
+            src="./imagenes/Logo.png"
+            width="150"
+            alt="Logo Mighty Ducks"
+          />
+        </div>
+      </div>
     </header>
 
     <!-- NAVBAR -->
     <nav>
+      <div class="navbar">
       <a href="./index.html">Home</a>
-      <a href="./about.html">About MDHL</a>
-      <a href="#">Contact</a>
+      <a href="./about.html">About</a>
+      <a id="active" href="#">Contact</a>
+    </div>
     </nav>
 
     <!-- MAIN -->
     <main>
       <!-- SECTION -->
       <div>
+
+        <div class="eventsTamanio">
+          <h2 class="events">Contact</h2>
+        </div>
+
+
+
+        <!-- Imagen
         <img src="./imagenes/hockey_3.jpg" width="150" alt="Hockey's Players" />
+         -->
         <!-- Datos de contacto -->
-        <p>
+        <p class="datos">
           Please email us at
-          <a href="mdhl@chihockey.org" target="_blank">mdhl@chihockey.org</a>
+          <a id="email" href="mdhl@chihockey.org" target="_blank">mdhl@chihockey.org</a>
         </p>
-        <p>We reply to your email as soon as we can</p>
+        <p class="datos">We reply to your email as soon as we can</p>
       </div>
     </main>
     <!-- Footer -->

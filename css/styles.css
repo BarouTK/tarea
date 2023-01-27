@@ -1,86 +1,121 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: content-box;
-
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+  font-family: "Comic Sans MS";
+  font-style: italic;
+  position: relative;
 }
 
-header{
-    background-image: url(../imagenes/design1_image1.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-position-y: -250px;
-    height: 500px;
-    
-    
-    
+/* Cabecera */
+
+.cabecera {
+  background-image: url(../imagenes/design1_image1.jpg);
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 00px;
+  background-size: 2000px 600px;
+  max-height: 400px;
+  max-width: 2000px;
 }
 
-.name{
-    font-size: 100px;
-    font-family: "Comic Sans MS";
+/* Titulo */
+.name {
+  font-size: 100px;
 }
 
-.logo{
-    
-    margin-left: 1500px;
-    margin-top: 330px;
-    background-color: #ffffff;
-
+/* Logo */
+.logo {
+  width: 150px;
+  top: 130px;
+  left: 1500px;
+  z-index: 1;
 }
 
-/* Barra de navegacion */
+/* Seccion/Evento Activo */
 
-.navbar{
-    width: 300px;
-    display: inline-block;
-    font-family: "Comic Sans MS";
-    
+.events {
+  display: i;
+  background-color: #000000;
+  padding: 20px;
+  color: #ffffff;
+  text-align: center;
 }
 
-nav{
-    display: inline;
+/* navbar */
+
+.navbar {
+  position: absolute;
+  display: block;
+  width: 300px;
+  margin-top: 50px;
+  left: 30px;
+  top: 50px;
+  font-size: 20px;
 }
 
-a{
-    display: block;
-    margin-left: 30px;
-    margin-top: 100px;
+nav > div > a {
+  font-size: 30px;
+  display: block;
+  padding: 20px;
+  z-index: 1;
+  color: cornflowerblue;
 }
 
-/* Cuerpo de pagina */
-
-main{
-    width: 1600px;
-    display: inline;
-    font-family: "Comic Sans MS";
+#active {
+  color: #000000;
 }
 
-article{
-    display: inline;
+/* Main */
+
+main > section > article {
+  left: 700px;
+  margin-top: 50px;
+  font-size: 20px;
 }
 
-/* eventos */
-
-.eventsTamanio{
-    height: 50px;
+main > section > article > p {
+  text-indent: 30px;
 }
 
-.events{
-    text-align: center;
-    background-color: black;
-    color: #ffffff;
-    font-size: 30px;
-    font-family: "Comic Sans MS";
-    
+main {
+  display: inline;
+  width: 700px;
 }
 
-/* imagen page 1 */
-.eventImg{
-    width: 200px;
-    display: none;
-    
+/* Main Page 2 */
+.about{
+    width: 1500px;
+  left: 300px;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.sangria{
+    text-indent: 30px;
 }
 
 
+/* Main Page 3 */
+
+.datos{
+    width: 1500px;
+    left: 300px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+#email{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+
+
+/* footer */
+footer {
+  display: inline-block;
+  top: 50px;
+  left: 1600px;
+}

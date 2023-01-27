@@ -4,33 +4,60 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./imagenes/Ducks1.ico">
+    <!-- Estilo Web 1 -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- Estilo web 2 -->
+    <!-- <link rel="stylesheet" href="./css/style2.css" /> -->
+    <!-- Estilo web 3
+    <link rel="stylesheet" href="./css/style3.css" /> -->
+    <link rel="shortcut icon" href="./imagenes/Ducks1.ico" />
+
     <title>Mighty Ducks NHL</title>
   </head>
-  <body>
+  <body class="container">
     <!-- Header -->
-    <header>
-      <img src="./imagenes/Logo.png" width="150" alt="Logo Mighty Ducks" />
-      <h1>Mighty Ducks Hockey League</h1>
+    <header class="cabecera">
+      <div>
+        <div>
+          <h1 class="name">Mighty Ducks Hockey League</h1>
+        </div>
+
+        <div>
+          <img
+            class="logo"
+            src="./imagenes/Logo.png"
+            width="150"
+            alt="Logo Mighty Ducks"
+          />
+        </div>
+      </div>
     </header>
 
     <!-- NAVBAR -->
     <nav>
-      <a href="./index.html">Home</a>
-      <a href="#">About MDHL</a>
-      <a href="./contact.html">Contact</a>
+      <div class="navbar">
+        <a class="separacion" href="./index.html">Home</a>
+        <a id="active"  href="#">About</a>
+        <a href="./contact.html">Contact</a>
+      </div>
     </nav>
 
     <!-- MAIN -->
     <main>
       <!-- SECTION -->
       <div>
-        <!-- Imagen Logo -->
+        <!-- Imagen Logo
         <img src="./imagenes/hockey_2.jpg" width="150" alt="Hockey's Players" />
+         -->
+
+        <div class="eventsTamanio">
+          <h2 class="events">About</h2>
+        </div>
+
         <!-- Articulo 1 -->
-        <article>
+        <article class="about">
           <h3>Mision</h3>
-          <p>
+          <p class="sangria">
             To support young athletes living Chicago's northside neighborhood,
             who have an interest in learning and playing soccer, with
             opportunities to learn and practice skills related to the game of
@@ -39,7 +66,7 @@
           </p>
         </article>
         <!-- Articulo 2 -->
-        <article>
+        <article class="about">
           <h3>Vision</h3>
           <p>
             The Mighty Ducks Hockey League aspires to develop strong,
@@ -48,7 +75,7 @@
           </p>
         </article>
         <!-- Articulo 3 -->
-        <article>
+        <article class="about">
           <h3>General Information</h3>
           <p>
             The Mighty Ducks Soccer League was established in 1996 to provide

@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+  font-family: "Comic Sans MS";
+  font-style: italic;
+  position: relative;
+}
+
+.name {
+  font-size: 100px;
+}
+
+nav {
+  display: block;
+  background-image: url(../imagenes/design2_image1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: -150px;
+  height: 400px;
+}
+
+.logo {
+  width: 150px;
+  position: absolute;
+  top: 500px;
+  left: 50px;
+}
+
+.navbar {
+  display: inline-block;
+  position: absolute;
+  left: 1500px;
+  top: -10px;
+  font-size: 20px;
+}
+
+a {
+  background-color: #4472c4;
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 2px;
+
+  padding: 5px 20px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 3px;
+  box-shadow: 3px 5px 0px 1px rgba(0, 0, 0, 0.4);
+}
+
+.separacion {
+  margin-right: 7px;
+}
+
+#active {
+  background-color: #70ad47;
+}
+
+.events {
+  display: block;
+  background-color: #000000;
+  padding: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* texto */
+
+article {
+  width: 1500px;
+  font-size: 30px;
+  top: 40px;
+  left: 300px;
+}
+
+article > p {
+  text-indent: 50px;
+  text-align: left;
+  font-size: 20px;
+  white-space: normal;
+}
+
+main > div > p {
+  width: 1500px;
+  font-size: 30px;
+  top: 40px;
+  left: 300px;
+  text-align: left;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+/* email */
+#email{
+    color: #0004ff;
+    background-color:rgba(0, 0, 0, 0);
+    border-color: #ffffff;
+    box-shadow: none;
+    padding: 0;
+
+
+}
+
+/* pie de pagina */
+
+footer {
+  display: inline-block;
+  top: 50px;
+  left: 1600px;
+}
