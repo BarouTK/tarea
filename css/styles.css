@@ -14,10 +14,9 @@
   display: block;
   background-repeat: no-repeat;
   background-position: center;
-  background-position-y: 00px;
   background-size: 2000px 600px;
   max-height: 400px;
-  max-width: 2000px;
+  max-width: 100%;
 }
 
 /* Titulo */
