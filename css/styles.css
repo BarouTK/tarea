@@ -14,9 +14,10 @@
   display: block;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 2000px 600px;
-  max-height: 400px;
+  background-size: 2000px  700px;
+  max-height: 100%;
   max-width: 100%;
+  
 }
 
 /* Titulo */
@@ -117,4 +118,8 @@ footer {
   display: inline-block;
   top: 50px;
   left: 1600px;
+}
+
+.eventImg{
+  display: none;
 }

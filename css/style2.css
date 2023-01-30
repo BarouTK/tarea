@@ -65,6 +65,10 @@ a {
   text-align: center;
 }
 
+.eventImg{
+  display: none;
+}
+
 /* texto */
 
 article {

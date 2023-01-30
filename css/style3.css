@@ -1,9 +1,120 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: content-box;
-    font-family: "Comic Sans MS";
-    font-style: italic;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+  position: relative;
+}
+
+body {
+  background-image: url(../imagenes/bg.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 100%;
+}
+
+.name {
+  font-size: 100px;
+  padding-top: 20px;
+  z-index: -1;
+  top: 50px;
+}
+
+#color {
+  background-color: #001220;
+  width: 100%;
+}
+
+header {
+  background-image: url(../imagenes/ducksbanner.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 50%;
+  width: 100%;
+}
+
+.logo {
+  width: 200px;
+  left: 1400px;
+  top: 75px;
+  transform: scale(0.8);
+  z-index: 1;
+}
+
+/* navvvvvvvv */
+
+.navbar {
+  top: 100px;
+  text-align: center;
+}
+
+.navbar > a {
+  color: #ffffff;
+  font-size: 25px;
+  align-items: center;
+  padding-left: 50px;
+  right: 25px;
+  text-decoration: none;
+  z-index: 1;
+}
+
+/* event*/
+
+.events {
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  top: 20px;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  align-content: center;
+}
+
+.eventImg {
+  width: 200px;
+  height: 250px;
+  top: 50px;
+  left: 1600px;
+  border-radius: 50%;
+}
+
+.eventsTamanio {
+  background-color: #f2545b;
+  width: 100%;
+
+  height: 70px;
+  bottom: 5px;
+}
+
+article {
+  color: #ffffff;
+  left: 500px;
+  z-index: 1;
+  bottom: 150px;
+  font-size: 20px;
+  padding: 15px;
+}
+
+article > h3 {
+  font-size: 25px;
+}
 
 
+/* about */
+
+main > div {
+    width: 100%;
+    text-align: left;
+}
+
+.about{
+    width: 700px;
+    text-align: left;
+    right: 500px
+}
+
+.datos{
+    font-size: 25px;
+    color: #ffffff;
+    left: 600px;
+    bottom: 100px;
 }
