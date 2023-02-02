@@ -1,0 +1,278 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    
+
+}
+
+
+
+
+header{
+    background-color: #FF5E5B;
+    height: 400px;
+    max-width: 100%;
+    display: flex;
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+}
+
+header .nombre{
+    font-size: 70px;
+    font-family: Arial Black;
+    font-weight: bold; 
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    margin-top: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    
+    
+}
+
+/* NAVBAR */
+
+.navbar{
+    background-color: #D8D8D8;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100px;
+    margin-left: 700px;
+    align-content: center;
+    
+    
+    max-width: 500px;
+    z-index: 1;
+    
+}
+
+nav .paginas{
+    font-size: 20px;
+    
+    
+    
+}
+
+nav > a{
+    margin: 0px 10px;
+    
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    
+    
+}
+
+ nav > a:hover{
+    color: #fff;
+ }
+
+/* LOGO */
+header .logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 350px;
+    opacity: 0.5;
+    transform: rotate(40deg);
+
+    
+    
+}
+
+
+
+/* MAIN */
+
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: 100%;
+    background-color: #FFFFEA;
+}
+
+.evento{
+    background-color: black;
+    
+    width: 100%;
+    height: 100px;
+}
+
+.evento> h2{
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 60px;
+    text-align: center;
+}
+
+/* Imagen */
+
+.container_imagen{
+    height: 90vh;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFEA;
+    
+    order: 2;
+    
+    
+    
+}
+
+.imagen{
+    width: 800px;
+    margin-top: 20px;
+    background-color: #FFFFEA;
+    margin-left: 450px;
+    border-style: solid;
+    border-width: 10px;
+
+    
+}
+
+/* Texto */
+.texto{
+    order: 1;
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 30px;
+    
+}
+
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 1080px;
+    background-color: #FFFFEA;
+    
+}
+
+.fecha{
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.parrafo{
+    font-size: 20px;
+    text-indent: 40px;
+}
+
+/* email  */
+
+.email{
+    text-decoration: none;
+    font-size: 25px;
+}
+
+/* Rules  */
+
+#centro{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#FFFFEA ;
+}
+
+.reglas{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    text-align: justify;
+    width: 700px;
+    background-color:#FFFFEA ;
+    
+}
+
+#centrar{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    
+}
+
+#separacion{
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+#separacion2{
+    margin-top: 20px;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/* listas */
+li{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+strong{
+    font-size: 20px;
+}
+
+.letras{
+    list-style:lower-alpha;
+     margin-top: 0px;
+}
+
+.discoblanco{
+   
+    margin-left: 60px;
+    list-style:circle;
+    
+}
+
+.sinestilo{
+    list-style: none;
+}
+
+/* Tabla */
+
+table{
+    border-style: solid;
+    border-width: 10px;
+    
+}
+
+td{
+    border-style: solid;
+}
+
+.tablainfo{
+    width: 100%;
+}
+
+
+.gameinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    font-size: 30px;
+    width:100%;
+    text-align: center;
+}
+
+.descripcion{
+    
+    width: 100%;
+    font-size: 25px;
+    margin-top: 10px;
+    justify-content: flex-start;
+}
+
