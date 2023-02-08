@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Document</title>
+    <link rel="shortcut icon" href="./imagenes/Ducks1.ico" type="image/x-icon">
+    <title>Mighty Ducks</title>
   </head>
   <body>
     <!-- DIV FULL -->
@@ -33,6 +34,8 @@
           <a class="paginas" href="#">GameInfo</a>
 
           <a class="paginas" href="./rules.html">Rules</a>
+
+          <a href="./form.html" class="paginas">Registration Form</a>
         </nav>
       </header>
       <!-- MAIN -->
@@ -46,12 +49,15 @@
         <!-- Articulos -->
         <div class="tablainfo">
           <!-- Articulo 1 -->
-          <div class="gameinfo">
-            <h3>Mighty Ducks Hockey League</h3>
-            <p>Fall Schedule</p>
-            <p>*All games take place on Saturday</p>
+            <div class="gametitle">
+            <h3 >Mighty Ducks Hockey League</h3>
+            <h2 class="gamesubtitle">Fall Schedule</h2>
+            <p class="gamesubtitle">* All games take place on Saturday</p>
           </div>
+         
+          
           <!-- Tabla -->
+
           <div class="gameinfo">
             <table>
               <thead>
@@ -82,14 +88,29 @@
                 </tr>
 
                 <tr>
+                  
                   <td>U6 and U1</td>
                   <td>Marjorie P Hart</td>
-                  <td>1:00 pm</td>
+                  <td>9:30 am</td>
+                </tr>
+
+                <tr>
+                  <td rowspan="2">9/15</td>
+                  <td>U2 and U4</td>
+                  <td>North</td>
+                  <td>9:30 am</td>
+                </tr>
+
+                <tr>
+                  
+                  <td>U3 and U5</td>
+                  <td>Aj Katzenmaier</td>
+                  <td>9:30 am</td>
                 </tr>
 
                 <tr>
                   <td rowspan="2">9/22</td>
-                  <td>U1 and U3</td>
+                  <td>U2 and U6</td>
                   <td>South</td>
                   <td>9:30 am</td>
                 </tr>
@@ -109,20 +130,42 @@
               </tbody>
             </table>
           </div>
+          <!-- Maps -->
+          <div class="mapas">
+            <!-- AJ Katzenmaier -->
+          <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.780458165188!2d-87.86499328430808!3d42.32588114525144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f932fbc6ba7cd%3A0xcf2bbe275c6da815!2sAJ%20Katzenmaier%20Academy!5e0!3m2!1ses!2sar!4v1675718653582!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+          <!-- Greenbay -->
+          <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14759.357738508532!2d-88.0504001082408!3d44.50993036269041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8802fb3716468881%3A0x959d6852e6569f0c!2sGreen%20Bay%20Packers%20Hall%20of%20Fame%20%26%20Museum!5e0!3m2!1ses!2sar!4v1675718850361!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+          <!--Howard A Yeager  -->
+          <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.297822812585!2d-87.85493440957927!3d42.314846114420064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880feccac26b07c5%3A0x8b51fa5d6efe771a!2sHoward%20A.%20Yeager%20School%20(PREK-K)!5e0!3m2!1ses!2sar!4v1675718915755!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+          <!-- Marjorie P Hart -->
+          <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.2896567362104!2d-87.65045736772502!3d41.92962680370532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd30f2637f9d7%3A0xdbff5d5dfcfcfa35!2sMarjorie%20P%20Hart%20Elementary!5e0!3m2!1ses!2sar!4v1675718978421!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+          <!-- South -->
+          <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1194.0334702502312!2d-88.73831028104783!3d44.38864051380592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8803d4cc3be64ab5%3A0x4aebc03e4613ab2c!2sThe%20Salvation%20Army!5e0!3m2!1ses!2sar!4v1675719139851!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+          
+          <!-- North -->
+          <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d169524.3811852924!2d-89.52759443649398!3d48.40242942680054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d5921774c16e98d%3A0x3d0557348f1d8b74!2sThunder%20Bay%2C%20Ontario%2C%20Canad%C3%A1!5e0!3m2!1ses-419!2sar!4v1675812445695!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        </div>
           <!-- Article 3 -->
           <div class="descripcion">
-            <p>Facility Type: Outdoor</p>
-            <p>
+            <p class="interlineado">Facility Type: Outdoor</p>
+            <p class="interlineado">
               Additional Information: if deemed necessary by MDHL james may be
               shortened or cancelled due to extreme weather conditions.
             </p>
-            <p>
+            <p class="interlineado">
               Please direct all questions to: Michael Randall, League
               Coordinator
             </p>
-            <p class="descripcion">
-            First Game of the Season(Check Game Schedule for details)
+            <div class="descripcion2">
+            <p>
+            Phone: (630) 690-8132</p>
+            
+            
+            <p>
+              Email:<a href="michael.randall@chihockey.org">michael.randall@chihockey.org</a>
             </p>
+          </div>
           </div>
         </div>
       </div>

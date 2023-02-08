@@ -10,11 +10,13 @@
 
 
 header{
-    background-color: #FF5E5B;
+    background-image: url(../imagenes/design1_image1.jpg);
+    background-size: 100%;
+    background-position-y:-200px ;
     height: 400px;
     max-width: 100%;
     display: flex;
-    
+    background-size: cover;
     flex-direction: row;
     flex-wrap: wrap;
     
@@ -40,12 +42,14 @@ header .nombre{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 100px;
-    margin-left: 700px;
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+    
     align-content: center;
+    justify-content: space-around;
     
     
-    max-width: 500px;
     z-index: 1;
     
 }
@@ -76,8 +80,9 @@ header .logo{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-left: 100px;
     width: 350px;
-    opacity: 0.5;
+    opacity: 1;
     transform: rotate(40deg);
 
     
@@ -93,8 +98,8 @@ header .logo{
     flex-direction: row;
     flex-wrap: wrap;
     max-width: 100%;
-    height: 100%;
-    background-color: #FFFFEA;
+    
+    
 }
 
 .evento{
@@ -107,18 +112,18 @@ header .logo{
 .evento> h2{
     color: #fff;
     text-transform: uppercase;
-    margin-top: 60px;
+    margin-top: 40px;
     text-align: center;
 }
 
 /* Imagen */
 
 .container_imagen{
-    height: 90vh;
+    
     width: 800px;
     display: flex;
     flex-direction: column;
-    background-color: #FFFFEA;
+    
     
     order: 2;
     
@@ -127,9 +132,9 @@ header .logo{
 }
 
 .imagen{
-    width: 800px;
+    width: 4    00px;
     margin-top: 20px;
-    background-color: #FFFFEA;
+    
     margin-left: 450px;
     border-style: solid;
     border-width: 10px;
@@ -150,8 +155,8 @@ header .logo{
     display: flex;
     flex-direction: column;
     width: 600px;
-    height: 1080px;
-    background-color: #FFFFEA;
+    
+    
     
 }
 
@@ -179,7 +184,7 @@ header .logo{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:#FFFFEA ;
+    
 }
 
 .reglas{
@@ -189,8 +194,18 @@ header .logo{
     align-content: center;
     text-align: justify;
     width: 700px;
-    background-color:#FFFFEA ;
+   
     
+}
+
+.parrafo2{
+    font-size: 20px;
+    text-indent: 40px;
+}
+
+.fecha2{
+    font-size: 30px;
+    text-decoration: underline;
 }
 
 #centrar{
@@ -245,7 +260,13 @@ strong{
 
 table{
     border-style: solid;
-    border-width: 10px;
+    border-width: 5px;
+    
+}
+
+#tablawidth{
+    
+    width: 800px;
     
 }
 
@@ -254,18 +275,57 @@ td{
 }
 
 .tablainfo{
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 20px;
+    margin-top: 20px;
+    
+}
+.info{
+    display: relative;
+    text-align: center;
+    font-size: 30px;
+    left: 400px;
 }
 
+.subinfo{
+    font-size: 20px;
+    text-align: center;
+}
+.tablainfo{
+    display: flex;
+    justify-content: center;
+}
+
+.gamesubtitle{
+    font-size: 25px;
+    justify-content: left;
+    align-items: left;
+    justify-self: left;
+    justify-self: start;
+    justify-items: left;
+    justify-items: start;
+}
+
+.gametitle{
+    font-size: 30px;
+    text-align: center;
+}
 
 .gameinfo{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     
+    
+    justify-content: center;
     font-size: 30px;
-    width:100%;
+    
     text-align: center;
+}
+
+.interlineado{
+    margin-top: 20px;
 }
 
 .descripcion{
@@ -273,6 +333,1249 @@ td{
     width: 100%;
     font-size: 25px;
     margin-top: 10px;
+    
     justify-content: flex-start;
 }
 
+.descripcion2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Mapas */
+
+.mapas{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+}
+
+iframe{
+    margin: 5px;
+    }
+
+
+/*Reglamento */
+
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-around;
+    
+    padding-top: 20px;
+    margin-top: 20px;
+
+}
+
+
+
+
+
+.espacio{
+    margin-top: 20px;
+    
+}
+
+
+.registracion{
+   text-align: center;
+   font-size: 50px;
+
+}
+
+
+
+
+
+.rules{
+
+    font-size: 20px;
+    text-align: justify;
+}
+/* formulario */
+
+form{
+    
+    font-size: 20px;
+
+}
+
+legend{
+    margin: 20px;
+}
+
+.post{
+    margin: 10px;
+    
+
+    
+}
+
+
+
+/* Media Queries */
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+
+    .navbar{
+        background-color: #D8D8D8;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 55px;
+        margin-top: 45px;
+        justify-content: start;
+        padding: 0px;
+        border-radius: 0px;
+        margin-left: 0;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+        
+        
+        z-index: 1;
+        
+    }
+
+
+
+    header{
+    display: flex;
+    justify-content: center;
+    
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 200px;
+    width: 100%;
+    
+    
+    
+    }
+
+    header .nombre{
+    font-size: 20px;
+    font-family: Arial Black;
+    font-weight: bold; 
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    margin-top: 5px;
+    text-transform: uppercase;
+    color: #fff;
+    
+    }
+
+    header .logo{
+    position: relative;
+    top: 120px;
+    margin-left: 250px;
+    width: 50px;
+    opacity: 1;
+    transform: rotate(0deg);
+    z-index: 2;
+    }
+
+   
+    
+    nav .paginas{
+        font-size: 10px;
+        
+        
+        
+    }
+    
+    nav > a{
+        margin: 5px 10px;
+        
+        text-decoration: none;
+        color: #000;
+        text-transform: uppercase;
+        
+        
+    }
+
+    .main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+        
+        
+    }
+    
+    .evento{
+        background-color: black;
+        
+        width: 100%;
+        height: 50px;
+    }
+    
+    .evento> h2{
+        color: #fff;
+        text-transform: uppercase;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    /* Imagen */
+    
+    .container_imagen{
+        
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        
+        
+        order: 2;
+        
+        
+        
+    }
+    
+    .imagen{
+        width: 130px;
+        margin-top: 20px;
+        
+        margin-left: 30px;
+        border-style: solid;
+        border-width: 2px;
+    
+        
+    }
+    
+    /* Texto */
+    .texto{
+        order: 1;
+        width: 130px;
+        margin-top: 10px;
+        margin-left: 10px;
+        
+    }
+    
+    .cuerpo{
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        
+        
+        
+    }
+
+    .fecha{
+        font-size: 16px;
+        text-decoration: underline;
+    }
+    
+    .parrafo2{
+        font-size: 15px;
+        text-indent: 1px;
+    }
+
+    .parrafo{
+        font-size: 15px;
+        text-indent: 1px;
+
+    }
+
+
+
+    /* Tabla */
+
+table{
+    border-style: solid;
+    border-width: 1px;
+    
+}
+
+  #tablawidth{
+    
+    width: 310px;
+    
+ }
+
+ td{
+    border-style: solid;
+} 
+
+ .tablainfo{
+    width: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    
+ }
+.info{
+    
+    text-align: center;
+    font-size: 1px;
+    left: 0px;
+}
+
+.subinfo{
+    font-size: 1px;
+    text-align: center;
+}
+.tablainfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gamesubtitle{
+    font-size: 15px;
+    
+}
+
+.gametitle{
+    font-size: 15px;
+}
+
+.gameinfo{
+    display: flex;
+    
+    justify-content: center;
+    justify-content: center;
+    font-size: 15px;
+    width:310px;
+    text-align: center;
+}
+
+.interlineado{
+    margin-top: 0px;
+}
+
+.descripcion{
+    
+    width: 310px;
+    font-size: 12px;
+    margin-top: 10px;
+    
+    justify-content: flex-start;
+}
+
+.descripcion2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+/* Mapas */
+
+.mapas{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+}
+
+iframe{
+    margin: 2px;
+    width: 135px;
+    }
+
+/* Rules  */
+
+#centro{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    
+}
+
+.reglas{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    
+    width: 320px;
+   
+    
+}
+
+#centrar{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    
+}
+
+#separacion{
+    
+    
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+#separacion2{
+    margin-top: 10px;
+    text-decoration: none;
+    
+
+}
+
+.fecha2{
+    font-size: 12px;
+    
+}
+
+/* listas */
+li{
+    margin-top: 2px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+
+
+.letras{
+    list-style:lower-alpha;
+     margin-top: 5px;
+}
+
+.discoblanco{
+   
+    margin-left: 6px;
+    list-style:circle;
+    
+}
+
+.sinestilo{
+    list-style: none;
+}    
+
+
+
+    
+}
+
+
+
+
+
+
+
+/* Media Query 768-1024 */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+    .navbar{
+        background-color: #D8D8D8;
+        display: flex;
+        flex-direction: row;
+        
+        height: 60px;
+        margin-top: -60px;
+        justify-content: start;
+        padding: 0px;
+        border-radius: 0px;
+        margin-left: 0;
+        align-content: center;
+        
+        width: 1023px;
+        
+        
+        z-index: 1;
+        
+    }
+
+
+
+    header{
+    display: flex;
+    justify-content: center;
+    
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 300px;
+    width: 1023px;
+    
+    
+    
+    }
+
+    header .nombre{
+    font-size: 50px;
+    font-family: Arial Black;
+    font-weight: bold; 
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    margin-top: 5px;
+    text-transform: uppercase;
+    color: #fff;
+    
+    }
+
+    header .logo{
+    position: relative;
+    top: 10px;
+    left: 250px;
+    width: 150px;
+    opacity: 1;
+    transform: rotate(0deg);
+    z-index: 2;
+    }
+
+   
+    
+    nav .paginas{
+        font-size: 15px;
+        
+        
+        
+    }
+    
+    nav > a{
+        margin: 5px 10px;
+        
+        text-decoration: none;
+        color: #000;
+        text-transform: uppercase;
+        
+        
+    }
+
+    .main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 100%;
+        
+        
+    }
+    
+    .evento{
+        background-color: black;
+        
+        width: 767px;
+        height: 50px;
+    }
+    
+    .evento> h2{
+        color: #fff;
+        text-transform: uppercase;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    /* Imagen */
+    
+    .container_imagen{
+        
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        
+        
+        order: 2;
+        
+        
+        
+    }
+    
+    .imagen{
+        width: 350px;
+        margin-top: 20px;
+        
+        margin-left: 10px;
+        border-style: solid;
+        border-width: 2px;
+    
+        
+    }
+    
+    /* Texto */
+    .texto{
+        order: 1;
+        width: 400px;
+        margin-top: 10px;
+        margin-left: 10px;
+        
+    }
+    
+    .cuerpo{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        
+        
+        
+    }
+
+    .fecha{
+        font-size: 40px;
+        text-decoration: underline;
+    }
+    
+    .parrafo{
+        font-size: 35px;
+        text-indent: 20px;
+    }
+
+
+
+    
+}
+
+
+/* 1024 */
+@media only screen and (min-width: 1024px) and (max-width: 1439px){
+
+    .navbar{
+        background-color: #D8D8D8;
+        display: flex;
+        flex-direction: row;
+        
+        height: 60px;
+        margin-top: 5px;
+        justify-content: center;
+        padding: 0px;
+        border-radius: 0px;
+        margin-left: 0;
+        align-content: center;
+        
+        width: 1024px;
+        
+        
+        z-index: 1;
+        
+    }
+
+
+
+    header{
+    display: flex;
+    justify-content: center;
+    
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 300px;
+    width: 100%;
+    
+    
+    
+    }
+
+    header .nombre{
+    font-size: 50px;
+    font-family: Arial Black;
+    font-weight: bold; 
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    margin-top: 5px;
+    text-transform: uppercase;
+    color: #fff;
+    
+    }
+
+    header .logo{
+    position: relative;
+    top: 80px;
+    left: 350px;
+    width: 150px;
+    opacity: 1;
+    transform: rotate(0deg);
+    z-index: 2;
+    }
+
+   
+    
+    nav .paginas{
+        font-size: 15px;
+        
+        
+        
+    }
+    
+    nav > a{
+        margin: 5px 10px;
+        
+        text-decoration: none;
+        color: #000;
+        text-transform: uppercase;
+        
+        
+    }
+
+    .main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 100%;
+        
+        
+    }
+    
+    .evento{
+        background-color: black;
+        
+        width: 100%;
+        height: 50px;
+    }
+    
+    .evento> h2{
+        color: #fff;
+        text-transform: uppercase;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    /* Imagen */
+    
+    .container_imagen{
+        
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        
+        
+        order: 2;
+        
+        
+        
+    }
+    
+    .imagen{
+        width: 350px;
+        margin-top: 20px;
+        
+        margin-left: 10px;
+        border-style: solid;
+        border-width: 2px;
+    
+        
+    }
+    
+    /* Texto */
+    .texto{
+        order: 1;
+        width: 400px;
+        margin-top: 10px;
+        margin-left: 10px;
+        
+    }
+    
+    .cuerpo{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        
+        
+        
+    }
+
+    .fecha{
+        font-size: 40px;
+        text-decoration: underline;
+    }
+    
+    .parrafo{
+        font-size: 35px;
+        text-indent: 20px;
+    }
+
+
+
+    
+}
+
+/* 425 */
+@media only screen and (min-width: 425px) and (max-width: 767px){
+
+    .navbar{
+        background-color: #D8D8D8;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 55px;
+        margin-top: 55px;
+        justify-content: start;
+        padding: 0px;
+        border-radius: 0px;
+        margin-left: 0;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+        
+        
+        z-index: 1;
+        
+    }
+
+
+
+    header{
+    display: flex;
+    justify-content: center;
+    
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 200px;
+    width: 100%;
+    
+    
+    
+    }
+
+    header .nombre{
+    font-size: 20px;
+    font-family: Arial Black;
+    font-weight: bold; 
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    margin-top: 5px;
+    text-transform: uppercase;
+    color: #fff;
+    
+    }
+
+    header .logo{
+    position: relative;
+    top: 150px;
+    margin-left: 300px;
+    width: 60px;
+    opacity: 1;
+    transform: rotate(0deg);
+    z-index: 2;
+    }
+
+   
+    
+    nav .paginas{
+        font-size: 10px;
+        
+        
+        
+    }
+    
+    nav > a{
+        margin: 5px 10px;
+        
+        text-decoration: none;
+        color: #000;
+        text-transform: uppercase;
+        
+        
+    }
+
+    .main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+        
+        
+    }
+    
+    .evento{
+        background-color: black;
+        
+        width: 100%;
+        height: 50px;
+    }
+    
+    .evento> h2{
+        color: #fff;
+        text-transform: uppercase;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    /* Imagen */
+    
+    .container_imagen{
+        
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        
+        
+        order: 2;
+        
+        
+        
+    }
+    
+    .imagen{
+        width: 200px;
+        margin-top: 10px;
+        
+        margin-left: 15px;
+        border-style: solid;
+        border-width: 2px;
+    
+        
+    }
+    
+    /* Texto */
+    .texto{
+        order: 1;
+        width: 130px;
+        margin-top: 10px;
+        margin-left: 10px;
+        
+    }
+    
+    .cuerpo{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        
+        
+        
+    }
+
+    .fecha{
+        font-size: 25px;
+        text-decoration: underline;
+    }
+    
+    .parrafo2{
+        font-size: 15px;
+        text-indent: 1px;
+    }
+
+    .parrafo{
+        font-size: 20px;
+        text-indent: 2px;
+
+    }
+
+
+
+    /* Tabla */
+
+table{
+    border-style: solid;
+    border-width: 1px;
+    
+}
+
+  #tablawidth{
+    
+    width: 310px;
+    
+ }
+
+ td{
+    border-style: solid;
+} 
+
+ .tablainfo{
+    width: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    
+ }
+.info{
+    
+    text-align: center;
+    font-size: 1px;
+    left: 0px;
+}
+
+.subinfo{
+    font-size: 1px;
+    text-align: center;
+}
+.tablainfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gamesubtitle{
+    font-size: 15px;
+    
+}
+
+.gametitle{
+    font-size: 15px;
+}
+
+.gameinfo{
+    display: flex;
+    
+    justify-content: center;
+    justify-content: center;
+    font-size: 15px;
+    width:310px;
+    text-align: center;
+}
+
+.interlineado{
+    margin-top: 0px;
+}
+
+.descripcion{
+    
+    width: 310px;
+    font-size: 12px;
+    margin-top: 10px;
+    
+    justify-content: flex-start;
+}
+
+.descripcion2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+/* Mapas */
+
+.mapas{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+}
+
+iframe{
+    margin: 2px;
+    width: 135px;
+    }
+
+/* Rules  */
+
+#centro{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    
+}
+
+.reglas{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    
+    width: 320px;
+   
+    
+}
+
+#centrar{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    
+}
+
+#separacion{
+    
+    
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+#separacion2{
+    margin-top: 10px;
+    text-decoration: none;
+    
+
+}
+
+.fecha2{
+    font-size: 12px;
+    
+}
+
+/* listas */
+li{
+    margin-top: 2px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+
+
+.letras{
+    list-style:lower-alpha;
+     margin-top: 5px;
+}
+
+.discoblanco{
+   
+    margin-left: 6px;
+    list-style:circle;
+    
+}
+
+.sinestilo{
+    list-style: none;
+}    
+
+
+
+    
+}
+
+/* 1440 */
+
+@media only screen and (min-width: 1440px) and (max-width: 1979px){
+
+    .navbar{
+        background-color: #D8D8D8;
+        display: flex;
+        flex-direction: row;
+        
+        height: 80px;
+        margin-top: 75px;
+        justify-content: center;
+        padding: 0px;
+        border-radius: 0px;
+        margin-left: 0;
+        align-content: center;
+        
+        width: 100%;
+        
+        
+        z-index: 1;
+        
+    }
+
+
+
+    header{
+    display: flex;
+    justify-content: center;
+    
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 300px;
+    width: 100%;
+    
+    
+    
+    }
+
+    header .nombre{
+    font-size: 50px;
+    font-family: Arial Black;
+    font-weight: bold; 
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    margin-top: 5px;
+    text-transform: uppercase;
+    color: #fff;
+    
+    }
+
+    header .logo{
+    position: relative;
+    top: 230px;
+    left: 50px;
+    width: 150px;
+    opacity: 1;
+    transform: rotate(0deg);
+    z-index: 2;
+    }
+
+   
+    
+    nav .paginas{
+        font-size: 15px;
+        
+        
+        
+    }
+    
+    nav > a{
+        margin: 5px 10px;
+        
+        text-decoration: none;
+        color: #000;
+        text-transform: uppercase;
+        
+        
+    }
+
+    .main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 100%;
+        
+        
+    }
+    
+    .evento{
+        background-color: black;
+        
+        width: 100%;
+        height: 80px;
+    }
+    
+    .evento> h2{
+        color: #fff;
+        text-transform: uppercase;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    /* Imagen */
+    
+    .container_imagen{
+        
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        
+        
+        order: 2;
+        
+        
+        
+    }
+    
+    .imagen{
+        width: 550px;
+        margin-top: 20px;
+        
+        margin-left: 350px;
+        border-style: solid;
+        border-width: 2px;
+    
+        
+    }
+    
+    /* Texto */
+    .texto{
+        order: 1;
+        width: 400px;
+        margin-top: 10px;
+        margin-left: 10px;
+        
+    }
+    
+    .cuerpo{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        
+        
+        
+    }
+
+    .fecha{
+        font-size: 50px;
+        text-decoration: underline;
+    }
+    
+    .parrafo{
+        font-size: 45px;
+        text-indent: 20px;
+    }
+
+
+
+    
+}
